@@ -1,0 +1,189 @@
+.col-auto .header-logo a img {
+    width: 200px !important;
+}
+
+.mobile-logo a img {
+    width: 200px;
+}
+
+.feature-card_icon img {
+    width: 45px;
+}
+
+.btn-wrap a.as-btn {
+    margin: auto;
+}
+
+.footer-logo img {
+    width: 350px;
+}
+
+.counter-card_icon img {
+    width: 50px;
+}
+
+.sec-text {
+    max-width: 680px;
+}
+
+.feature-grid_img img {
+    width: 130px;
+}
+
+.footer-top {
+    padding: 80px 0 60px 0;
+}
+
+.text-end img.about-img {
+    margin: -35px 0 0 -125px;
+    max-width: 120%;
+}
+
+.footer-logo {
+    text-align: center;
+}
+
+.footer-top .footer-logo {
+    border-right: 0;
+}
+
+.logo-style1 a img {
+    width: 180px;
+}
+
+nav ul.main-nav {
+    margin-left: -25px;
+}
+
+.contact-info a {
+    color: #4d5765;
+}
+
+.contact-info a:hover {
+    color: #eb0029;
+}
+
+.chicken-img img {
+    width: 112px;
+}
+
+.rice-img img {
+    width: 119px;
+}
+
+.item-title {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 25px;
+    margin-bottom: 20px !important;
+}
+
+.item-btn a {
+    background: transparent;
+    border: 1px solid #bdbdbd;
+    color: #4d5765;
+}
+
+.team-card:hover .item-btn .as-btn1 {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.as-btn1:hover {
+    color: #eb0029 !important;
+    background-color: #fff;
+}
+
+.as-btn1:before {
+    background-color: #fff;
+}
+
+.kitchen-rotate {
+    width: 150px;
+    rotate: 30deg;
+}
+
+.faq-img1 img {
+    max-width: 900px !important;
+}
+
+.row.about-acco {
+    margin: -100px 0 -80px 0;
+}
+
+.filter-menu-active button img {
+    width: 50px;
+}
+
+.filter-menu-active button img.blender {
+    width: 25px;
+}
+
+.filter-menu-active button img.oven {
+    width: 40px;
+}
+
+.product-img a img {
+    width: 140px;
+}
+
+.menu-list-img1 img {
+    width: 73%;
+}
+
+.summary-content,
+.product-about {
+    padding-right: 36px;
+}
+
+@media (max-width: 1199px) {
+    .footer-top .footer-logo img {
+        width: 300px;
+    }
+
+    .footer-top {
+        padding: 70px 0 25px 0;
+    }
+
+    .row.about-acco {
+        margin: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .text-end img.about-img {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .as-video {
+        margin: auto;
+    }
+
+    .as-video img {
+        width: 300px;
+    }
+
+    .kitchen-rotate {
+        width: 100px;
+    }
+
+    .faq-img img {
+        max-width: 100% !important;
+    }
+
+    .row.about-acco {
+        margin: 0;
+    }
+
+    .shape-mockup.chili.jump-reverse.kitchen-rotate {
+        right: 15px !important;
+    }
+
+    .as-product.list-view .product-text {
+        display: block;
+    }
+
+    .menu-list_title {
+        font-size: 24px;
+    }
+}
