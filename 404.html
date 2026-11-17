@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="en">
 <!-- Mirrored from angfuzsoft.com/html/pizzer/demo/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 29 Jul 2023 09:12:30 GMT -->
 
 <head>
@@ -19,10 +19,21 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&amp;family=Roboto:wght@100;300;400;500;700&amp;family=Rubik:wght@300;400;500;600;700;800;900&amp;display=swap"
         rel="stylesheet" />
+    <script>
+        /* language boot: set lang/dir before first paint (see assets/js/i18n.js) */
+        (function () {
+            try {
+                var m = /[?&]lang=(en|ar)/.exec(location.search);
+                var l = m ? m[1] : localStorage.getItem("kover-lang");
+                if (l === "ar") { var h = document.documentElement; h.lang = "ar"; h.dir = "rtl"; }
+            } catch (e) { }
+        })();
+    </script>
     <link rel="stylesheet" href="assets/css/app.min.css" />
     <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/nStyle.css" />
+    <link rel="stylesheet" href="assets/css/lang.css" />
 </head>
 
 <body>
@@ -59,6 +70,13 @@
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
+            <div class="mobile-lang">
+                <button type="button" class="lang-switch" data-lang-switch aria-label="Switch language">
+                    <i class="fa-solid fa-globe" aria-hidden="true"></i>
+                    <span class="lang-switch__txt to-ar" lang="ar"><span class="full">العربية</span><span class="short">ع</span></span>
+                    <span class="lang-switch__txt to-en" lang="en"><span class="full">English</span><span class="short">EN</span></span>
+                </button>
+            </div>
         </div>
     </div>
     <header class="as-header header-layout1">
@@ -74,6 +92,13 @@
                         <div class="col-auto">
                             <div class="header-links">
                                 <ul>
+                                    <li class="header-lang">
+                                        <button type="button" class="lang-switch lang-switch--light" data-lang-switch aria-label="Switch language">
+                                            <i class="fa-solid fa-globe" aria-hidden="true"></i>
+                                            <span class="lang-switch__txt to-ar" lang="ar"><span class="full">العربية</span><span class="short">ع</span></span>
+                                            <span class="lang-switch__txt to-en" lang="en"><span class="full">English</span><span class="short">EN</span></span>
+                                        </button>
+                                    </li>
                                     <li>
                                         <div class="header-social">
                                             <a href="https://www.facebook.com/koverintl" target="_blank"><i
@@ -287,6 +312,7 @@
     <a href="#" class="scrollToTop scroll-btn"><i class="far fa-long-arrow-up"></i></a>
     <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
     <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/i18n.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 <!-- Mirrored from angfuzsoft.com/html/pizzer/demo/error.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 29 Jul 2023 09:13:39 GMT -->
